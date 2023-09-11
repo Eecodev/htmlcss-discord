@@ -42,6 +42,9 @@ a{
 .login{
     color: black;
 }
+.primary-bg{
+    background-color: var(--color-primary);
+}
 /* flex utility */
 .d-flex{
     display: flex;
@@ -67,6 +70,8 @@ header{
 }
 .hero-content{
     max-width: 800px;
+    text-align: center;
+    color: white;
 }
 /* main */
 main section{
