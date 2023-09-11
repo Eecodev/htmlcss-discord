@@ -14,9 +14,13 @@
 }
 body{
     background-color: var(--color-secondary);
+    font-family: 'Noto Serif', serif;
 }
 ul{
     list-style: none;
+}
+li{
+    color: white;
 }
 .debug {
     border: 1px solid black;
@@ -29,6 +33,15 @@ ul{
 .even{
     background-color: var(--color-section-bg);
 }
+a{
+    color: white;
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+.login{
+    color: black;
+}
 /* flex utility */
 .d-flex{
     display: flex;
@@ -36,6 +49,9 @@ ul{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
+.f-center{
+    justify-content: center;
 }
 #hero .container{
     min-height: 500px;
@@ -49,7 +65,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.hero-content{
+    max-width: 800px;
+}
 /* main */
 main section{
     padding: 60px 0;
