@@ -15,6 +15,47 @@
 body{
     background-color: var(--color-secondary);
 }
+ul{
+    list-style: none;
+}
 .debug {
     border: 1px solid black;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.even{
+    background-color: var(--color-section-bg);
+}
+/* flex utility */
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+#hero .container{
+    min-height: 500px;
+}
+/* header */
+header{
+    background-color: var(--color-header-bg);
+}
+#hero{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* main */
+main section{
+    padding: 60px 0;
+}
+/* footer */
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
 }
