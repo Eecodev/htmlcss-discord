@@ -68,6 +68,10 @@ button{
 .title-section{
     padding-bottom: 20px;
 }
+.section-text-left{
+    padding-left: 20px;
+    padding-top: 35px;
+}
 /* flex utility */
 .d-flex{
     display: flex;
