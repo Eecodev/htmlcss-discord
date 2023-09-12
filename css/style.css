@@ -35,9 +35,13 @@ li{
 }
 a{
     color: white;
-    display: block;
+    display: inline-block;
     padding: 8px 12px;
     text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
 }
 button{
     border-radius: 20px;
@@ -48,6 +52,9 @@ button{
 }
 .primary-bg{
     background-color: var(--color-primary);
+}
+.section-text{
+    display: inline-block;
 }
 /* flex utility */
 .d-flex{
@@ -67,6 +74,10 @@ button{
 header{
     background-color: var(--color-header-bg);
     padding-top: 20px;
+}
+h1{
+    font-size: 2em;
+    padding: 15px 0;
 }
 #hero{
     background-image: url('../img/jumbo.png');
