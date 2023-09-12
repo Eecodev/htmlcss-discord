@@ -83,6 +83,7 @@ button{
 }
 .section-img-last{
     text-align: center;
+    max-width: 100%;
 }
 /* flex utility */
 .d-flex{
