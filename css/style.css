@@ -78,8 +78,13 @@ button{
 }
 .section-text-last{
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-small{
+    width: 900px;
+    margin: 0 auto;
 }
 .section-img-last{
     text-align: center;
