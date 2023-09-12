@@ -68,12 +68,18 @@ button{
 .title-section{
     padding-bottom: 20px;
 }
+.title-section-last{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
 .section-text-left{
     padding-left: 20px;
     padding-top: 35px;
 }
 .section-text-last{
     text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .section-img-last{
     text-align: center;
