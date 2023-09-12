@@ -72,6 +72,12 @@ button{
     padding-left: 20px;
     padding-top: 35px;
 }
+.section-text-last{
+    text-align: center;
+}
+.section-img-last{
+    text-align: center;
+}
 /* flex utility */
 .d-flex{
     display: flex;
@@ -90,6 +96,7 @@ button{
     display: flex;
     flex-direction: row-reverse;
 }
+
 /* header */
 header{
     background-color: var(--color-header-bg);
